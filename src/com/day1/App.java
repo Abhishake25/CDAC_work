@@ -14,8 +14,8 @@ public class App {
 		//Step 1: Establish a connection with mySql database
 		
 		String url = "jdbc:mysql://localhost:3306/user";
-		String username = "root";
-		String password = "Hanumanji25@";
+		String username = "xxxxx";
+		String password = "xxxxxxxxx";
 		
 		try(Connection connection = DriverManager.getConnection(url,username,password)){
 			System.out.println("Connection successful");
